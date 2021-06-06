@@ -1,5 +1,9 @@
-const tebex = () => {
-    return (  );
+const sneakpeaks = () => {
+    return (
+        <div>
+            sneakpeaks
+        </div>
+    );
 }
  
-export default tebex;
+export default sneakpeaks ;

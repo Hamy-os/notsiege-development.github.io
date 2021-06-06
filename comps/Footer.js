@@ -1,7 +1,11 @@
+import styles from '../styles/Footer.module.css'
+
 const Footer = () => {
   return (
-    <footer>
-      notsiege-development © 2020-2021
+    <footer className={styles.Footer}>
+      <div>
+        <p>notsiege development © 2020-2021</p>
+      </div>
     </footer>
   );
 }

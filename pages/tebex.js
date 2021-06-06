@@ -1,5 +1,9 @@
 const tebex = () => {
-    return (  );
+    return (
+        <div>
+            tebex
+        </div>
+    );
 }
  
 export default tebex;
