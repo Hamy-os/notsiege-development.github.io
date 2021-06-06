@@ -39,10 +39,10 @@ function MyApp({ Component, pageProps }) {
         <meta name="og:region" content="CA"/>
         <meta name="og:postal-code" content="00000"/>
         <meta name="og:country-name" content="USA"/>
-        <meta property="og:video" content="https://streamable.com/ki4kkj" />
+        <meta property="og:video" content="https://hamy.iodine.gg/7dc2b.mp4" />
         <meta property="og:video:height" content="640" />
         <meta property="og:video:width" content="385" />
-        <meta property="og:video:type" content="application/x-shockwave-flash" />
+        <meta property="og:video:type" content="video/mp4" />
       </div>
     </Layout>
   )
