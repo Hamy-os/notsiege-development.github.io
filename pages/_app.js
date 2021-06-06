@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="og:url" content="https://notsiege.dev"/>
         <meta name="og:image" content="https://hamy.iodine.gg/346ea.png"/>
         <meta name="og:site_name" content="notsiege-development"/>
-        <meta name="og:description" content="notsiege-development is a group of people devoted to making GTAV a better place thru mods. We mainly make cars, skins, scripts, maps but we also make much more mods! So come check us out! Make sure to check out iodine.gg aswell!"/>
+        <meta property="og:description" content="NSD is a group of people devoted to making GTAV a better place. We mainly make cars, skins, scripts and maps but we also make much more mods!"/>
         <meta name="og:email" content="pr@notsiege.dev"/>
         <meta name="og:region" content="CA"/>
         <meta name="og:postal-code" content="00000"/>
@@ -42,7 +42,18 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:video" content="https://hamy.iodine.gg/7dc2b.mp4" />
         <meta property="og:video:height" content="640" />
         <meta property="og:video:width" content="385" />
-        <meta property="og:video:type" content="video/mp4" />
+        <meta property="og:video:type" content="video/mp4"/>
+        <meta property="og:url" content="https://notsiege.dev"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="notsiege development"/>
+        <meta property="og:description" content="NSD is a group of people devoted to making GTAV a better place. We mainly make cars, skins, scripts and maps but we also make much more mods!"/>
+        <meta property="og:image" content="https://hamy.iodine.gg/346ea.png"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:domain" content="notsiege.dev"/>
+        <meta property="twitter:url" content="https://notsiege.dev"/>
+        <meta name="twitter:title" content="notsiege development"/>
+        <meta name="twitter:description" content="NSD is a group of people devoted to making GTAV a better place. We mainly make cars, skins, scripts and maps but we also make much more mods!"/>
+        <meta name="twitter:image" content="https://hamy.iodine.gg/346ea.png"/>
       </div>
     </Layout>
   )
