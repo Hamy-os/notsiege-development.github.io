@@ -1,24 +1,23 @@
 import Link from 'next/link'
-import styles from '../styles/About.module.css'
 const about = () => {
     return (
-        <div className={styles.wrapper}>
-            <section className={styles.whorewe}>
+        <div>
+            <section>
                 <div className="whoarewe">
                     <h1>Who are we?</h1>
                         <p>Notsiege-Development is a group of FiveM enthusiast that got together to orignally <br></br>make a carpack for FiveM but their goals have since evolved and they are now making scripts, maps, cars, <br></br> and much more for FiveM!</p>
                 </div>
             </section>
-            <section className={styles.whatwedo}>
+            <section>
                 <div>
                     <h1>What We Do</h1>
                         <p>notsiege development mostly focuses on the creation and modification of vehicles, <br></br> maps, and liveries. We also have developers on our team who write scripts.</p>
                 </div>
             </section>
-            <section className={styles.faq}>
+            <section>
                 <div>
                     <h1>F.A.Q</h1>
-                        <ul className={styles.list}>
+                        <ul>
                             <li>Why do you charge for our products?</li>
                                 <p>To make the best use of our time as developers, we sell many of our resources. However, we do have a few free releases on our GitHub</p>
                             <li>Source Code?</li>
