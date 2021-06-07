@@ -10,7 +10,7 @@ const home = () => {
       <div className={ styles.description }>
         <h3>The place for all your FiveM Needs!</h3>
       </div>
-      <div className={styles.middle}>
+      <div className={styles.container}>
       <a href="/about">Learn More</a>
         <a href="https://discord.gg/vgYmzjJJtZ"><span></span><span></span><span></span><span></span>Join our Discord</a>
       </div>
