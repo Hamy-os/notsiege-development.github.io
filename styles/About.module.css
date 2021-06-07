@@ -1,0 +1,23 @@
+.wrapper {
+    text-align: center;
+    padding-right: 5em;
+    padding-left: 5em;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+
+.list {
+    list-style: none;
+    font-size: 25px;
+}
+
+.wrapper li {
+    font-size: 25px;
+    color: red;
+    
+}
+
+.wrapper h1 {
+    color: red;
+}
