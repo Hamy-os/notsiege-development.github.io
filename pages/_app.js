@@ -3,11 +3,13 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
+  <main>
     <Layout>
       <Component {...pageProps} />
       <div>
         <meta name="keywords" content="fivem, gta5, gat 5, gta 5, gta five, five m, 5m, 5, m, 5m, grand theft auto 5, gta v, grand theft auto v, grand, theft, auto, esx, esx-reborn, notsiege, notsiege-development, not, siege, development, fivem script, fivem scripts, fivem cars, cars, fivem skins, fivem peds, eup, fivem eup"/>
         <meta name="description" content="notsiege-development is a group of people devoted to making GTAV a better place thru mods. We mainly make cars, skins, scripts, maps but we also make much more mods! So come check us out"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="subject" content="GTAV Mods"/>
         <meta name="copyright"content="notsiege-development"/>
         <meta name="language" content="EN"/>
@@ -54,6 +56,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:image" content="https://hamy.iodine.gg/346ea.png"/>
       </div>
     </Layout>
+    </main>
   )
 }
 
