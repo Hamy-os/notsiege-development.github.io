@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="distribution" content="Global"/>
         <meta name="rating" content="General"/>
         <meta name="revisit-after" content="7 days"/>
-        <meta http-equiv="Expires" content="0"/>
+        <meta httpEquiv="Expires" content="0"/>
         <meta name="og:title" content="notsiege development"/>
         <meta name="og:type" content="Buisness"/>
         <meta name="og:url" content="https://notsiege.dev"/>
