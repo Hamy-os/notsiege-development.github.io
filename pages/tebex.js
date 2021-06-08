@@ -1,4 +1,4 @@
-import '../styles/Tebex.module.css'
+
 
 const tebex = () => {
     return (

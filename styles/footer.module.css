@@ -1,0 +1,77 @@
+.footercontainer {
+  display: flex;
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: #202020;
+  margin-right: auto;
+  margin-left: auto;
+  margin: auto;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.socials h3 {
+  text-align: justify;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  margin: auto;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.socials {
+padding-right: 1em;
+padding-left: 1em;
+text-align: justify;
+margin-right: auto;
+margin-left: auto;
+margin: auto;
+margin: auto;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.navlinks {
+  padding-right: 1em;
+  padding-left: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  margin: auto;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: justify;
+
+}
+
+.navlinks h3 {
+  text-align: justify;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  margin: auto;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footdesc {
+  padding-right: 1em;
+  padding-left: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  margin: auto;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  bottom: auto;
+  top: auto;
+  text-align: center;
+}
