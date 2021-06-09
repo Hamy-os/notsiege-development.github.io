@@ -30,7 +30,7 @@ const about = () => {
                                 <p>We use various amounts of software, For maps we use 3DS MAX and CodeWalker, for vehicles we use ZModeler and OpenIV as well was Adobe photoshop and Paint.net, For scripts we use VSCode.</p>
                             <li>How can we speak further?</li>
                                <p>You can join our Discord! We are always looking to interact with our followers! </p>
-                               add a widget here 
+                               <iframe src="https://canary.discord.com/widget?id=842938260447952996&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                         </ul>
                 </div>
             </section>

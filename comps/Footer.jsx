@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                     <div className={styles.footdesc}>
                         <h3>Notsiege-development</h3>
-                        <p>NSD Is a FiveM/GTA5 modding group that make cars, maps, scripts and much more!</p>
+                        <p>NSD Is a FiveM/GTA5 modding group that makes cars, maps, scripts and much more!</p>
                         <p>NSD © 2021</p>
                     </div>
         </footer>
