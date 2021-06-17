@@ -1,7 +1,7 @@
-import Link from 'next/link'
+import styles from '../styles/about.module.css'
 const about = () => {
     return (
-        <div>
+        <div className={styles.wrapper}>
             <section>
                 <div className="whoarewe">
                     <h1>Who are we?</h1>
@@ -15,7 +15,7 @@ const about = () => {
                 </div>
             </section>
             <section>
-                <div>
+                <div className={styles.faq}>
                     <h1>F.A.Q</h1>
                         <ul>
                             <li>Why do you charge for our products?</li>
@@ -29,8 +29,8 @@ const about = () => {
                             <li>What software do you use?</li>
                                 <p>We use various amounts of software, For maps we use 3DS MAX and CodeWalker, for vehicles we use ZModeler and OpenIV as well was Adobe photoshop and Paint.net, For scripts we use VSCode.</p>
                             <li>How can we speak further?</li>
-                               <p>You can join our Discord! We are always looking to interact with our followers! </p>
-                               <iframe src="https://canary.discord.com/widget?id=842938260447952996&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                                <p>You can join our Discord! We are always looking to interact with our followers! </p>
+                            <iframe src="https://canary.discord.com/widget?id=842938260447952996&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                         </ul>
                 </div>
             </section>

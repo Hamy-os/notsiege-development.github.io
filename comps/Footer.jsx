@@ -2,7 +2,7 @@ import styles from '../styles/footer.module.css'
 
 const Footer = () => {
   return (
-        <footer className={styles.footercontainer}>
+        <footer className={styles.footer}>
                     <div className={styles.socials}>
                         <h3>Socials</h3>
                         <ul>
@@ -12,7 +12,7 @@ const Footer = () => {
                             <li><a href="https://www.youtube.com/channel/UCJ4cgi0mui8T7BVOXddlKpg">Youtube</a></li>
                         </ul>
                     </div>
-                    <div className={styles.navlinks}>
+                    <div className={styles.about}>
                         <h3>About</h3>
                         <ul>
                             <li><a href="/about">About us</a></li>
@@ -20,9 +20,8 @@ const Footer = () => {
                             <li><a href="/tebex">Store</a></li>
                         </ul>
                     </div>
-                    <div className={styles.footdesc}>
+                    <div className={styles.copyright}>
                         <h3>Notsiege-development</h3>
-                        <p>NSD Is a FiveM/GTA5 modding group that makes cars, maps, scripts and much more!</p>
                         <p>NSD © 2021</p>
                     </div>
         </footer>

@@ -1,0 +1,18 @@
+.wrapper {
+    text-align: center;
+}
+
+.wrapper h1 {
+    font-size: 50px;
+}
+
+.wrapper li {
+    font-weight: bold;
+}
+
+.faq p {
+    padding-left: 1em;
+    padding-right: 2em;
+    text-align: justify;
+    text-align: center;
+}

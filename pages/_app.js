@@ -2,7 +2,7 @@ import Layout from '../comps/Layout'
 import '../styles/global.css'
 function MyApp({ Component, pageProps }) {
   return (
-  <main>
+  <main className="c">
     <Layout>
       <Component {...pageProps} />
         <meta name="keywords" content="fivem, gta5, gat 5, gta 5, gta five, five m, 5m, 5, m, 5m, grand theft auto 5, gta v, grand theft auto v, grand, theft, auto, esx, esx-reborn, notsiege, notsiege-development, not, siege, development, fivem script, fivem scripts, fivem cars, cars, fivem skins, fivem peds, eup, fivem eup"/>
@@ -52,6 +52,9 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:title" content="notsiege development"/>
         <meta name="twitter:description" content="NSD is a group of people devoted to making GTAV a better place. We mainly make cars, skins, scripts and maps but we also make many more mods!"/>
         <meta name="twitter:image" content="https://hamy.iodine.gg/346ea.png"/>
+        <meta name="theme-color" content="#0090ff"/>
+        <link rel="manifest" href="manifest.json"/>
+        <link rel="manifest" href="manifest.webmanifest" crossOrigin="use-credentials"></link>
     </Layout>
     </main>
   )

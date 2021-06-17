@@ -16,3 +16,29 @@ p {
 ul {
     list-style-type: none;
 }
+
+c {
+	height: 200vh;
+	width: 960px;
+	margin: auto;
+	max-width: 95%;
+}
+
+::-webkit-scrollbar-track
+{
+	border: 5px solid white;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar
+{
+	width: 15px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #3993df;
+	border-radius: 10px;
+}

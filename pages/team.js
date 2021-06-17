@@ -1,31 +1,35 @@
+import styles from '../styles/team.module.css'
 
 const  team = () => {
     return (
         <div>
-            <div>
-                <h1>Our Team</h1>
-                <h2>Our team is composed of the following people</h2>
+            <body className={styles.body}>
+            <div className={styles.header}>
+                <h1>NotSiege development team</h1>
+                <p>Our team is composed of the following people.</p>
             </div>
-            <div>
-                <ul>
-                    <div>
-                        <img src="https://hamy.iodine.gg/c0d8i.webp" alt="image of notsiege"></img>
-                        <li> <a>Notsiege is the founder of NSD and is the reason all this exists</a></li>
-                    </div>
-                    <div>
-                        <img src="https://hamy.iodine.gg/7a7f6.webp" alt="image of notpulse"></img>
-                        <li> <a>Notpulse is the co-founder of NSD and makes sure everything goes smoothly</a></li>
-                    </div>
-                    <div>
-                        <img src="https://hamy.iodine.gg/5e9i9.webp" alt="image of SaltySea"></img>
-                        <li> <a>Hamy is the lead dev at NSD and oversees all operations</a></li>
-                    </div>
-                    <div>
-                        <img src="https://hamy.iodine.gg/8b749.webp" alt="image of Jacob"></img>
-                        <li> <a>Jacob is a developer at NSD and made the beautiful Neon script</a></li>
-                    </div>
-                </ul>
+
+            <div className={styles.row}> 
+            <div className={styles.column}>
+                <img src="https://hamy.iodine.gg/c0d8i.webp" style={{ width: '100%' }}/>
+                <p className={styles.names}>NotSiege | Owner</p>
             </div>
+            <div className={styles.column}>
+                <img src="https://hamy.iodine.gg/7a7f6.webp" style={{ width: '100%' }}/>
+                <p className={styles.names}>NotPulse | Manager</p>
+            </div>  
+            <div className={styles.column}>
+                <img src="https://hamy.iodine.gg/5e9i9.webp" style={{ width: '100%' }}/>
+                <p className={styles.names}>SaltySea | Team Lead</p>
+            </div>
+            <div className={styles.column}>
+                <img src="https://hamy.iodine.gg/8b749.webp" style={{ width: '100%' }}/>
+                <p className={styles.names}>Jacob | Team</p>
+                <br></br>
+                <br></br>
+            </div>
+            </div>
+            </body>
         </div>
     );
 }
