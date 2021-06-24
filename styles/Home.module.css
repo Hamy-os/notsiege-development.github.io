@@ -1,8 +1,44 @@
-.description {
+
+  @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+.h1 {
+      text-align: center;
+  }
+
+.btn {
+  width: 180px;
+  height: 60px;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 0.5s ease-in-out;
+  margin: 5px;
   text-align: center;
-  font-style: italic;
+  border-radius: 4px;
 }
 
-.middle {
+
+.btn:hover {
+  transition: 0.5s ease-in-out;
+  background: #4F95DA;
+}
+
+
+.btn span {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
   text-align: center;
+}
+
+.centermepls {
+    text-align: center;
+}
+
+.iexisttomakethispagescrollable {
+    margin-bottom: 4em;
+}
+
+.support {
+	text-align: center;
 }

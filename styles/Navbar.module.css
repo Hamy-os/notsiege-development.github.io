@@ -1,18 +1,29 @@
-@font-face {
-    font-family: 'neonfont';
-    src: url('/NEONLEDLight.ttf')
-    format('truetype');  
+.topnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #202020;
+	text-align: center;
 }
 
-.Navbar {
-    font-family: 'neonfont', 'sans-serif' ;
-    margin-right: auto;
-    color: #16a3f5;
-    font-size: 50px;
-}
-
-.link a {
-    padding-right: 20px;
-    font-size: 25px;
-    color: #16a3f5;
-  }
+.topnav ul li {float: left;}
+.topnav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+	
+	.topnav ul li a:hover:not(.active) {background-color: #111;}
+	
+	.topnav ul li a.active {background-color: #4CAF50;}
+	
+	.topnav ul li.right {float: right;}
+	
+@media screen and (max-width: 600px){
+	.topnav ul li.right {float: right;}
+	.topnav ul li {float: none;}
+	
+	}
