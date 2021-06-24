@@ -5,26 +5,34 @@ const  sneakpeaks = () => {
         <div>
             <body className={styles.body}>
             <div className={styles.header}>
-                <h1>NotSiege development team</h1>
-                <p>Our team is composed of the following people.</p>
+                <h1>NotSiege development team Sneapeaks</h1>
+                <p>Here you can see some of our sneakpeaks</p>
             </div>
 
             <div className={styles.row}> 
             <div className={styles.column}>
-                <img src="https://hamy.iodine.gg/c0d8i.webp" style={{ width: '100%' }}/>
-                <p className={styles.names}>NotSiege | Owner</p>
+                <img src="https://hamy.iodine.gg/ajc52.webp" style={{ width: '100%' }}/>
+                <a href="#" className={styles.names}></a>
             </div>
             <div className={styles.column}>
-                <img src="https://hamy.iodine.gg/7a7f6.webp" style={{ width: '100%' }}/>
-                <p className={styles.names}>NotPulse | Manager</p>
-            </div>  
-            <div className={styles.column}>
-                <img src="https://hamy.iodine.gg/5e9i9.webp" style={{ width: '100%' }}/>
-                <p className={styles.names}>SaltySea | Team Lead</p>
+                <img src="https://hamy.iodine.gg/ajc52.webp" style={{ width: '100%' }}/>
+                <a href="#" className={styles.names}></a>
             </div>
             <div className={styles.column}>
-                <img src="https://hamy.iodine.gg/8b749.webp" style={{ width: '100%' }}/>
-                <p className={styles.names}>Jacob | Team</p>
+                <img src="https://hamy.iodine.gg/ajc52.webp" style={{ width: '100%' }}/>
+                <a href="#" className={styles.names}></a>
+            </div>
+            <div className={styles.column}>
+                <img src="https://hamy.iodine.gg/ajc52.webp" style={{ width: '100%' }}/>
+                <a href="#" className={styles.names}></a>
+            </div>
+            <div className={styles.column}>
+                <img src="https://hamy.iodine.gg/ajc52.webp" style={{ width: '100%' }}/>
+                <a href="#" className={styles.names}></a>
+            </div>
+            <div className={styles.column}>
+                <img src="https://hamy.iodine.gg/ajc52.webp" style={{ width: '100%' }}/>
+                <a href="#" className={styles.names}></a>
                 <br></br>
                 <br></br>
             </div>
