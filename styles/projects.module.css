@@ -24,8 +24,8 @@
   margin-left: auto;
   padding: 0 4px;
   border: 2px solid #202020;
-border-radius: 25px;
-background-color: #202020;
+  border-radius: 25px;
+  background-color: #202020;
 }
 
 .column img {
@@ -55,4 +55,5 @@ border-radius: 25px;
 .names {
   text-align: center;
   font-size: medium;
+  margin-top: 10px;
 }
