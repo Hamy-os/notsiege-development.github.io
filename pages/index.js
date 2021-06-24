@@ -21,6 +21,11 @@ const home = () => {
 
                 </div>
         </div>
+        <div className={styles.support}>
+                  <h4>Need esx support?</h4>
+                  <p>Join here!</p>
+                <iframe src="https://canary.discord.com/widget?id=856620384270548992&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                </div>
       </div>
   );
 }
